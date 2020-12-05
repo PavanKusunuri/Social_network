@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "description": "Application for Developers to meet and find jobs",
   "main": "server.js",
+  "type": "module",
   "scripts": {
+    "start": "node backend/server",
+    "server": "nodemon backend/server",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
