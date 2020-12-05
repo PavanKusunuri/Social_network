@@ -1,0 +1,27 @@
+{
+  "name": "social-network",
+  "version": "1.0.0",
+  "description": "Application for Developers to meet and find jobs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PavanKusunuri/social_network.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PavanKusunuri/social_network/issues"
+  },
+  "homepage": "https://github.com/PavanKusunuri/social_network#readme",
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.11.4"
+  }
+}
